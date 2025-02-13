@@ -17,14 +17,14 @@ t = (e2 - e1) / cv.getTickFrequency()
 print(t)
 
 cv.useOptimized()
-res = cv.medianBlur(img, 49)
+res = cv.medianBlur(img1, 49)
 print(res)
 cv.setUseOptimized(False)
 
 cv.useOptimized()
 
-res = cv.medianBlur(img, 49)
+res = cv.medianBlur(img1, 49)
 
-z = cv.countNonZero(img)
+z = cv.countNonZero(img1)
 
-z = cv.np.count_nonzero(img)
+z = cv.np.count_nonzero(img1)
